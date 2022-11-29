@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "46ed306e-4ed1-40b4-a822-89f2d79adf50",
+		"name": "chamalse",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Settings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/getsettings"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Promotions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/getpromotions"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/getlocation"
+			},
+			"response": []
+		},
+		{
+			"name": "Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "356",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "ios",
+							"type": "text"
+						}
+					]
+				},
+				"url": "{{url}}/token"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "356",
+							"type": "text"
+						}
+					]
+				},
+				"url": "{{url}}/gettransaction"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Exclusive Offer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/getexclusiveoffer"
+			},
+			"response": []
+		}
+	]
+}
